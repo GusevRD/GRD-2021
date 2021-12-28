@@ -1,0 +1,27 @@
+﻿Сборка начата 30.12.2020 05:42:47.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\Vanna\source\repos\KIN-2020\GenCode\GenCode.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Release\GenCode.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling GeneratedAsm.asm...
+         cmd.exe /C "C:\Users\Vanna\AppData\Local\Temp\tmp1b2fb436d741478397e2ec10b91b6e7d.cmd"
+         ml.exe /c /nologo /Zi /Fo"Release\GeneratedAsm.obj" /W3 /errorReport:prompt  /TaGeneratedAsm.asm
+       Link:
+         D:\Programs\Visual Studio\IDE\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Vanna\source\repos\KIN-2020\Release\GenCode.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Vanna\source\repos\KIN-2020\Release\GenCode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Vanna\source\repos\KIN-2020\Release\GenCode.lib" /MACHINE:X86 /SAFESEH Release\GeneratedAsm.obj
+     1>LINK : error LNK2001: неразрешенный внешний символ _mainCRTStartup.
+     1>C:\Users\Vanna\source\repos\KIN-2020\Release\GenCode.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+     1>D:\Programs\Visual Studio\IDE\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(876,5): error MSB6006: "link.exe" завершилась с кодом 1120.
+     1>Сборка проекта "C:\Users\Vanna\source\repos\KIN-2020\GenCode\GenCode.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\Vanna\source\repos\KIN-2020\GenCode\GenCode.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         LINK : error LNK2001: неразрешенный внешний символ _mainCRTStartup.
+         C:\Users\Vanna\source\repos\KIN-2020\Release\GenCode.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+         D:\Programs\Visual Studio\IDE\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(876,5): error MSB6006: "link.exe" завершилась с кодом 1120.
+
+    Предупреждений: 0
+    Ошибок: 3
+
+Прошло времени 00:00:00.49

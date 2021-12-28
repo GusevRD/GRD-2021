@@ -1,0 +1,12 @@
+----- Протокол ----- Дата: 21.12.2021  13:18:27 -----
+----- Параметры ----- 
+-log: C:\Users\gimso\source\repos\GRD-2021\Debug\in.txt.log
+-out: C:\Users\gimso\source\repos\GRD-2021\Debug\in.txt.out
+-in: C:\Users\gimso\source\repos\GRD-2021\Debug\in.txt
+
+Количество символов: 594
+Количество строк: 40
+Проигнорировано: 0
+Ошибка 101: Цепочка не распознана в польскую запись
+Строка 13 позиция 0
+
